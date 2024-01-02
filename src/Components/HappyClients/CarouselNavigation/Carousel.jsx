@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 // import required modules
 import { Navigation } from 'swiper/modules';
 // Import Swiper React components
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -11,8 +11,6 @@ import CardForLawFirm from "../../Attorneys/Introduction/Card";
 import Jane from "../../../assests/JaneCooper.png";
 import Devon from "../../../assests/Devon.png";
 import Robert from "../../../assests/Robert.png";
-import CarouselLeftNavigation from "../CarouselNavigation/LeftArrowButton";
-import CarouselRightNavigation from "../CarouselNavigation/RightArrowButton";
 
 function Carousel(){
     return (

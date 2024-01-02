@@ -11,7 +11,7 @@ const CarouselRightNavigation = () =>{
         swiper.on("slideChange", function(){
             setIsEnd(swiper.isEnd)
         });
-    },[])
+    })
 
     return(
     <div className={styles.rightNavigation}>
