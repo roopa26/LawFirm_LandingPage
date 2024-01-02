@@ -1,0 +1,12 @@
+.wrapper{
+    position: relative;
+    margin: 0px 153px 200px 153px
+}
+
+.slide{
+    width: 345px;
+}
+
+.slide:hover {
+    opacity: 0.3;
+  }

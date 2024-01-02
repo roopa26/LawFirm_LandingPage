@@ -1,0 +1,7 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 53px 153px;
+    flex-wrap: wrap;
+}

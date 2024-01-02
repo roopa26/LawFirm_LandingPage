@@ -1,0 +1,29 @@
+.btn{
+    background-color: #E3B748 !important;
+    border-radius: 50px !important;
+    color: black !important;
+    width: 121px;
+    height: 43px;
+    font-size: 14px !important;
+    font-weight: 600;
+}
+
+.card{
+    background-color: var(--color-black) !important;
+    color: var(--color-white);
+    border: 1px solid grey;
+}
+
+.img{
+    width: 101px;
+    height: 101px !important;
+    margin: 20px;
+}
+
+.cardContent{
+    color: var(--color-white);
+}
+
+.cardContentSecondary{
+    opacity: 0.2;
+}

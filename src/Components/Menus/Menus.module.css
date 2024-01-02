@@ -1,0 +1,7 @@
+.menu{
+    width: 431px;
+    height: 26px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}

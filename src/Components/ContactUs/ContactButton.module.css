@@ -1,0 +1,8 @@
+.button{
+    border: 1px solid var(--color-white);
+    text-align: center;
+    width: 172px;
+    height: 47px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}

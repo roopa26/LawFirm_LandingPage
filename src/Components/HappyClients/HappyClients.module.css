@@ -1,0 +1,25 @@
+.header{
+    text-align: left;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 154px;
+}
+
+.headerWrapper{
+    text-align: left;
+    margin: 200px 153px 0px 153px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrowWrapper{
+    display: flex;
+    gap:20px;
+    width: 200px;
+    height: 91.85px;
+}
+
+.arrowWrapper > img{
+    width: 90px;
+    height: 90px;
+}

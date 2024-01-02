@@ -1,0 +1,38 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 153px;
+    margin-right: 153px;
+    align-items: center;
+    margin-top: 200px;
+    height: max-content;
+}
+
+.leftSection{
+    font-size: 34px;
+    color: var(--color-white);
+    line-height: 87.22px;
+     width: 600px; 
+}
+
+.midSection{
+    width: 0px;
+    height: 174px;
+    border: 1px solid white;
+}
+
+.rightSection{
+    width: 475px;
+    text-align: left;
+    color: white;
+}
+
+.rightSection > h5{
+    font-size: 32px;
+}
+
+.rightSection > p{
+    font-size: 18px;
+    line-height: 29.25px;
+    opacity: 0.3;
+}

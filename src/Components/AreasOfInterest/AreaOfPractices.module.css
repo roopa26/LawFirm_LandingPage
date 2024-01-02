@@ -1,0 +1,55 @@
+.wrapper{
+    margin: 200px 153px;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--color-black);
+    gap:10px;
+    justify-content: center;
+    width: 100%;
+}
+
+.group1{
+    display: flex;
+    gap : 30px;
+    flex-wrap: wrap;
+}
+
+/* img{
+    width: 100%;
+    height: 100%;
+} */
+
+.BusinessLaw{
+    position: relative;
+}
+
+.PartnershipLaw{
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    font-size: 20px;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    bottom: 50px;
+}
+
+.businessTitle{
+    right:40%;
+}
+
+.partershipTitle{
+    right:20%;
+}

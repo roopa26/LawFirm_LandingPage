@@ -1,0 +1,17 @@
+
+.wrapper{
+    margin: 200px 153px;
+}
+
+.cardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-black);
+    gap:10px;
+    justify-content: center;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
