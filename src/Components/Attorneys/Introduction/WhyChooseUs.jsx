@@ -8,9 +8,9 @@ const WhyUs = () => {
         <div className={styles.wrapper}>
             <div className={styles.header}><h1>Why Choose us?</h1></div>
             <div className={styles.cardWrapper}>
-            <div><CardForLawFirm cardIcon={CardIcon} heading="98% Success Rate" /></div>
-            <div><CardForLawFirm cardIcon={CardIcon} heading="100% Success Rate" /></div>
-            <div><CardForLawFirm cardIcon={CardIcon} heading="100% Success Rate" /></div>
+            <div className={styles.hoverClass}><CardForLawFirm cardIcon={CardIcon} heading="98% Success Rate" /></div>
+            <div className={styles.hoverClass}><CardForLawFirm cardIcon={CardIcon} heading="100% Success Rate" /></div>
+            <div className={styles.hoverClass}><CardForLawFirm cardIcon={CardIcon} heading="100% Success Rate" /></div>
             </div>
             
         </div>

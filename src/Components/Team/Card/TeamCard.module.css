@@ -1,0 +1,35 @@
+.teamcard{
+    background-color: var(--color-black) !important;
+    color: var(--color-white) !important;
+    width: 250px;
+    height: 80px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 1rem;
+}
+
+.teamcard:hover{
+    background-color: #E3B748 !important;
+    color: var(--color-black) !important;
+}
+
+.teamcard:hover .subheader {
+    color: var(--color-black);
+    opacity: 0.3;
+}
+
+.teamcard:hover .image {
+    background-color:  #E3B748;
+}
+
+.subheader{
+    color: var(--color-white);
+    opacity: 0.3;
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-black);;
+}
